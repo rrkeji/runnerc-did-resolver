@@ -1,5 +1,5 @@
 {
-  "name": "web-did-resolver",
+  "name": "runnerc-did-resolver",
   "version": "0.1.0",
   "description": "Resolve DID documents from runnerc",
   "source": "src/resolver.ts",
