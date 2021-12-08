@@ -12,6 +12,8 @@ async function get(url: string): Promise<any> {
   return res.json()
 }
 
+
+
 export function getResolver(): Record<string, DIDResolver> {
   async function resolve(did: string, parsed: ParsedDID): Promise<DIDResolutionResult> {
     //
