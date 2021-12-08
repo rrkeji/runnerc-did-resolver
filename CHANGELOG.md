@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/rrkeji/runnerc-did-resolver/compare/1.2.0...1.3.0) (2021-12-08)
+
+
+### Features
+
+* semantic-release ([e8fecc9](https://github.com/rrkeji/runnerc-did-resolver/commit/e8fecc935a0e574b734986ed901e6662d508da4b))
+
 # [1.2.0](https://github.com/rrkeji/runnerc-did-resolver/compare/1.1.0...1.2.0) (2021-12-08)
 
 
