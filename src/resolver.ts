@@ -64,5 +64,5 @@ export function getResolver(): Record<string, DIDResolver> {
     }
   }
 
-  return { web: resolve }
+  return { runnerc: resolve }
 }
