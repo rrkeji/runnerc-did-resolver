@@ -31,7 +31,7 @@
     "lint": "eslint --ignore-pattern \"src/**/*.[jt]s\"",
     "prepare": "yarn build",
     "prepublishOnly": "yarn format && yarn lint",
-    "release": "semantic-release --branches master"
+    "release": "semantic-release --branches main"
   },
   "devDependencies": {
     "@babel/core": "7.14.6",
