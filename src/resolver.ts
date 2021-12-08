@@ -16,7 +16,8 @@ export function getResolver(): Record<string, DIDResolver> {
   async function resolve(did: string, parsed: ParsedDID): Promise<DIDResolutionResult> {
     //
     let err = null
-
+    console.log("did:", did)
+    console.log("ParsedDID:", parsed)
     // get runnerc url
     const url = `https://${RUNNERC_HOST}/resolver/${did}/did.json`
 
@@ -26,6 +27,7 @@ export function getResolver(): Record<string, DIDResolver> {
     do {
       try {
         //
+        console.log("get url is:", url)
         didDocument = await get(url)
       } catch (error) {
         err = `resolver_error: DID must resolve to a valid https URL containing a JSON document: ${error}`
